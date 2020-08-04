@@ -3510,8 +3510,8 @@ function hsuforum_get_course_forum($courseid, $type) {
     }
     switch ($forum->type) {
         case "news":
-            $forum->name  = get_string("namenews", "hsuforum");
-            $forum->intro = get_string("intronews", "hsuforum");
+            $forum->name  = "Ankündigungen und Nachrichten";
+            $forum->intro = "Ankündigungen und Nachrichten";
             $forum->introformat = FORMAT_HTML;
             $forum->forcesubscribe = HSUFORUM_FORCESUBSCRIBE;
             $forum->assessed = 0;
